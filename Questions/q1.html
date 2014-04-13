@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Learn Early | Learn Young</title>
+ <nav id="top_menu">
+        <ul>
+            <li>Home </li>|
+            <li>jQuery</li>|
+              <li>javascript</li>|
+            <li>CSS</li>|
+             <li>Hacking</li>|
+<li>HTML</li>|
+<li>HTML5 </li>|
+<li>Android</li>|
+<li>Shell-Scripts</li>|
+<li>java game</li>|
+<li>MySql</li>|
+<li>Python</li>|
+<li>Questions</li>|
+<li>Others</li>           
+        </ul>
+
+
+        </nav>
+Young Learner 
+
+<hr></hr>
+<h1> Question 1</h1>
+<link rel="stylesheet" href="question.css">
+
+
+</head>
+<body>
+ <div id="q">
+<h3>This is the first ques   </h3>
+</div>
+
+
+<script type="text/javascript" >
+var c=0;
+var timer_is_on=0;
+var t;
+function Timer()
+{
+if(!timer_is_on)
+{
+ timer_is_on=1;
+  count();
+}
+}
+function count()
+{
+document.getElementById('txt').value=c+'  secs';
+c=c+1;
+t=setTimeout("count()",1000);
+}
+
+function stopTimer()
+{
+clearTimeout(t);
+timer_is_on=0;
+}
+</script>
+
+<form>
+
+<input type="text" id="txt" size="7" >
+<body onload="Timer()" /> 
+<input type="button" value="Check Answer" onClick="stopTimer()" >
+
+</form>
+</br></br></br>
+<h4>Take Your Time To Learn a New Concept .</h4>
+</body>
+</html>
